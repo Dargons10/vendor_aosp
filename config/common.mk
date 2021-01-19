@@ -153,10 +153,6 @@ PRODUCT_PACKAGES += \
 # Branding
 include vendor/aosp/config/branding.mk
 
-# OTA
-include vendor/aosp/config/ota.mk
-
-
 # Pixel Style
 include vendor/pixelstyle/config.mk
 
