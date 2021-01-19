@@ -156,8 +156,6 @@ include vendor/aosp/config/branding.mk
 # OTA
 include vendor/aosp/config/ota.mk
 
-# GApps
-include vendor/gapps/config.mk
 
 # Pixel Style
 include vendor/pixelstyle/config.mk
