@@ -116,7 +116,13 @@ PRODUCT_MINIMIZE_JAVA_DEBUG_INFO := true
 
 # Optional packages
 PRODUCT_PACKAGES += \
-    LiveWallpapersPicker
+    LiveWallpapersPicker \
+    Calculator \
+    WallpaperPickerGooglePrebuilt \
+    
+PRODUCT_COPY_FILES += \
+    vendor/aosp/prebuilt/common/lib/libjni_latinime.so:system/lib/libjni_latinime.so \
+    vendor/aosp/prebuilt/common/lib/libjni_latinimegoogle.so:system/lib/libjni_latinimegoogle.so
 
 # Charger
 PRODUCT_PACKAGES += \
