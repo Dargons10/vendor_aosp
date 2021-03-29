@@ -118,6 +118,7 @@ PRODUCT_MINIMIZE_JAVA_DEBUG_INFO := true
 PRODUCT_PACKAGES += \
     LiveWallpapersPicker \
     Calculator \
+    nova \
     WallpaperPickerGooglePrebuilt \
     
 PRODUCT_COPY_FILES += \
